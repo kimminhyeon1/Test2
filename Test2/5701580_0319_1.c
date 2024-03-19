@@ -29,7 +29,6 @@ int main(void) {
 	stop2 = clock();
 	
 	duration_iter = (double)(stop2 - start2) / CLOCKS_PER_SEC;
-	
 	printf("20! 재귀함수값 = %f, 반복함수값 = %f\n", result_rec, result_iter);
 	printf("재귀함수 실행시간 = %f, 반복함수 실행시간 = %f\n", duration_rec, duration_iter);
 
