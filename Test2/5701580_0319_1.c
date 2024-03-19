@@ -6,7 +6,8 @@ double factorial_rec(int n) {
 	else return (n * factorial_rec(n - 1));
 }
 double factorial_iter(int n) {
-	int i, result = 1;
+	int i;
+	double result = 1.0;
 	for (i = 1; i <= n; i++)
 		result = result * i;
 	return(result);
